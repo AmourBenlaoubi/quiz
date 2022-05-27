@@ -107,8 +107,8 @@ submitBtn.addEventListener('click', () => {
             loadQuiz();
         } else {
             quiz.innerHTML = `
-                <h2> Bravo, tu as  ${score} bonnes réponse.</h2>
-                <h3> si tu as eu au moins 4 bonnes réponses, tu as le droit à un bonbon</h3>
+                <h2> Bravo, tu as  ${score} bonnes réponse !!!</h2>
+                <h3> si tu as eu au moins 4 bonnes réponses, tu as le droit à un bonbon !!</h3> 
                 
                 <button onclick="location.reload()">Tu veux recommencer ?</button>
             `;
